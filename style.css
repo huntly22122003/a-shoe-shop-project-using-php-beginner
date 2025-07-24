@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.admin-form{
+    text-decoration: none;
+    color: black;
+}
+.brands ul{
+    font-family: 'Arial', Times, serif;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.brands ul li{
+    position: relative;
+}
+.brands ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.items-dropdown{
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    border: 1px solid;
+    border-radius: 15px solid black;
+    background-color: #ddd;
+    top: 50px;
+    right: 70px;
+    left: 70px;
+    transition: 0.2s;
+    padding-right: 22px;
+    z-index: 5;
+    
+}
+
+.items-dropdown ul li{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.brands li:hover .items-dropdown{
+    visibility: visible;
+    top: 30px;
+}
+
+.sliders{
+    z-index: 1;
+}
+
+.footer{
+    font-size: medium;
+    font-family: 'Arial', Times, serif;
+    list-style-type: none;
+    text-align: center;
+    font: bold;
+}
+.footer p{
+    text-decoration: none;
+}
+.footer a{
+
+    text-decoration: solid;    
+    color: black;
+    font: bold;
+}
+.discount{
+    margin-left: 250px;
+}
+
+.brand-h{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.add-to-cart{
+  box-sizing: border-box;
+  width: 200px;
+  height: 27px;
+  border: 1px solid;
+  border-radius: 1px solid black;
+  background-color: #ddd;
+  font-weight: bold;
+  display: none;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+
+/* căn phải */
+input[name="update_click"] {
+    float: right;
+}
+
+input[name="order_click"] {
+    text-align: center;
+    float: left;
+}
+
+  /* Ẩn nút "ĐẶT HÀNG" ban đầu */  
+.add-to-cart i{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Khi con trỏ chuột hover vào phần tử .category */
+.category:hover {
+    /* Thêm hiệu ứng opacity */
+    opacity: 0.9;
+  }
+    
+  /* Hiển thị nút "ĐẶT HÀNG" khi con trỏ chuột hover vào phần tử .category */
+  .category:hover .add-to-cart {
+    display: block;
+  }
+  
+.script{
+    font-size: 15px;
+}
+
+.product{
+    font-size: 15px;
+}
+
+.products{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    line-height: 26px;
+}
+
+.category {
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 20px; /* Khoảng cách giữa các phần tử là 20px */
+}
+
+.prod{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product-detail{
+    border-top: 1px solid #000;
+    padding: 15px 0 0 0;
+}
+.product-img{
+    width: 30%;
+    float: left;
+}
+.product-info{
+    float: right;
+    width: 70%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.tbl{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 15px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+
+}
+.th{
+    text-align: center;
+}
+
+#add-to-cart-form input[type='text']{
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+  font-size: 20px;  
+}
+table {
+    margin-left: 20px;
+}
+.order-print
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 15px solid black;
+    font-size: large;
+    width: 500px;
+    margin-top: 100px;
+    text-decoration: none;
+}
